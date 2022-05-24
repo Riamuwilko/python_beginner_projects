@@ -29,7 +29,7 @@ def hangman():
         elif user_letter in used_letters:
             print('You have already used that character. Please try again')
         else:
-            print('Invalid character.  Please try again')
+            print('Invalid character. Please try again')
 
 if __name__ == '__main__':
     hangman()
